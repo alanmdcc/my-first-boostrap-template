@@ -1,0 +1,62 @@
+.bg-black{
+    background-color: rgb(20, 20, 20);
+}
+
+.text-light-gray{
+    color:gray;
+}
+
+.text-decoration-line-through{
+    text-decoration: line-through;
+}
+
+.sale{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+
+.jumbotron-height{
+    margin-top: 56px;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    margin-bottom: 30px;
+}
+
+
+.wrapper{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper::after{
+    content: '';
+    padding-top: 100%;
+}
+
+.wrapper-alto{
+    width:auto;
+    height:100%;
+    position:absolute;
+}
+
+.wrapper-ancho{
+    width:100%;
+    height:auto;
+    position:absolute;
+}
